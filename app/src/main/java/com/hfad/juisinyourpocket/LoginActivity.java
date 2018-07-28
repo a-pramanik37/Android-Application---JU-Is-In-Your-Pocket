@@ -67,7 +67,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if(currentUser != null)
         {
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, SplashActivity.class);
             startActivity(intent);
             finish();
         }
@@ -89,7 +89,7 @@ public class LoginActivity extends AppCompatActivity {
                                 Toast.makeText(LoginActivity.this, getString(R.string.auth_failed), Toast.LENGTH_LONG).show();
                             }
                         } else {
-                            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                            Intent intent = new Intent(LoginActivity.this, SplashActivity.class);
                             startActivity(intent);
                             Toast.makeText(LoginActivity.this, "Successful", Toast.LENGTH_SHORT).show();
                             finish();
