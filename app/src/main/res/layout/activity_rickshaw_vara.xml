@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#64FFDA"
+    tools:context=".RickshawVaraActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <include
+        android:id="@+id/loginToolbar"
+        layout="@layout/action_toolbar" />
+
+
+
+
+    <Spinner
+        android:id="@+id/spinnerRick1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#CFD8DC"
+        android:layout_marginBottom="46dp"
+        android:layout_marginTop="75dp"
+
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerRick2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/RickTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="To"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/spinnerRick2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerRick1" />
+
+    <Spinner
+        android:id="@+id/spinnerRick2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#CFD8DC"
+        android:layout_marginBottom="355dp"
+
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerRick1" />
+
+    <TextView
+        android:id="@+id/RickVara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/vara"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRickshaw" />
+
+    <Button
+        android:id="@+id/buttonRickshaw"
+        android:layout_width="wrap_content"
+
+        android:background="#00E676"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:onClick="onVaraShowingButton"
+        android:text="@string/btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerRick2" />
+
+</android.support.constraint.ConstraintLayout>

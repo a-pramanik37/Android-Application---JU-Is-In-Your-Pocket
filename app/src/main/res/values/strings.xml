@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">JU Is In Your Pocket</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="btn">Click to See Vara</string>
+    <string name="vara">No Item Selected</string>
+    <string-array name="foodNames">
+        <item>(Full/Half) Rice</item>
+        <item>Broiler Chicken</item>
+        <item>Deshi Chicken</item>
+        <item>Beef</item>
+        <item>Khashi</item>
+        <item>Shorshe Ilish</item>
+        <item>Chhoto Machh</item>
+        <item>Golda/Chhoto Chingri</item>
+        <item>Pangash Machh</item>
+        <item>Koi/Telapia/Shorputi</item>
+        <item>Boro Machh</item>
+        <item>Sobji/Daal</item>
+        <item>Porota/Nan</item>
+        <item>Roast</item>
+        <item>Dim vaji/Vuna</item>
+
+        <item>Khichuri</item>
+        <item>Tehari</item>
+        <item>All Vorta Items</item>
+        <item>Duck Curry</item>
+        <item>Pigeon</item>
+        <item>Polao</item>
+
+    </string-array>
+
+    <string-array name="foodPrices">
+        <item>6/4 tk</item>
+        <item>30 tk</item>
+        <item>70 tk</item>
+        <item>65 tk</item>
+        <item>80 tk</item>
+        <item>60 tk</item>
+        <item>40 tk</item>
+        <item>60/30 tk</item>
+        <item>30 tk</item>
+        <item>35 tk</item>
+        <item>40 tk</item>
+        <item>10 tk</item>
+        <item>5/10 tk</item>
+        <item>50 tk</item>
+        <item>12/15 tk</item>
+        <item>15-20 tk</item>
+        <item>50 tk</item>
+        <item>5 tk</item>
+        <item>80 tk</item>
+        <item>100 tk</item>
+        <item>20 tk</item>
+
+    </string-array>
+
+    <string name="contact1">Mailing Address :\n
+
+The Registrar
+New Registrar Building (1st Floor)
+
+Jahangirnagar University
+Savar, Dhaka-1342, Bangladesh.\n
+
+(Office Hour: 8:30 AM to 4:00 PM,   Days: Sunday to Thursday,   Closed weekend day: Friday and Saturday)\n
+
+(Saturdays through Thursdays)</string>
+
+
+    <string name="contact2">Phone      : 880-2-7791040 (Off.)\n
+Fax            : 880-2-7791052\n
+PABX      : 880-2-7791045-51; Ext.- 1204 (Off.)\n
+
+E-mail   : registrarju@gmail.com or registrar@juniv.edu\n
+
+Website : www.juniv.edu
+</string>
+
+
+    <string name="about">Developed by:\n
+    \tMd. Aktaruzzaman Pramanik\n
+        \tCSE\n
+        \t44th Batch\n
+        \tJahangirnagar University\n\n
+
+
+
+        \tEmail:\n
+        \tbappycseju37@gmail.com\n\n
+          \tMobile:\n
+        \t+8801723617777\n\n\n\n
+        \t\t\t\t\t\t      Thank You
+
+    </string>
+
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "931838163716",
+    "firebase_url": "https://juisinyourpocket-229e4.firebaseio.com",
+    "project_id": "juisinyourpocket-229e4",
+    "storage_bucket": "juisinyourpocket-229e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931838163716:android:08801c70a1f929fa",
+        "android_client_info": {
+          "package_name": "com.hfad.juisinyourpocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931838163716-bi4936gs5o5h2beik6kbe6b0g4goir3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-LM8gg1PQtqkAeFmaQXbv-4GjVJybf0s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
